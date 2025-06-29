@@ -9,3 +9,4 @@ function torrar(pao, nome = "Cliente não identificado", valor = "não registrad
     console.log("O valor total do pedido é R$ " + valor)
 }
 // Evite gambiarras, o valor opcional sempre ser o ultimo parametro.
+
