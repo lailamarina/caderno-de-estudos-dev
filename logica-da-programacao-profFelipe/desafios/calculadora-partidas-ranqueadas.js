@@ -1,9 +1,9 @@
 //Calculadora de partidas Rankeadas proposta pelo Felipão da DIO
 
-calcularNivelRanked (85,10)
-let saldoDoJogador = calcularNivelRanked (85,10)
+calcularNivelRanked (94, 45)
+let saldoDoJogador = calcularNivelRanked (94, 45)
 
-console.log ("O herói tem de saldo " + saldoDoJogador.saldo + "está no nível de " + saldoDoJogador.nivel)
+console.log ("O herói tem de saldo " + saldoDoJogador.saldo +" está no nível de " + saldoDoJogador.nivel)
 
 function calcularNivelRanked(vitorias, derrotas) {
     let saldo = vitorias-derrotas
